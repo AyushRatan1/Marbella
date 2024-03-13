@@ -972,7 +972,7 @@ body.nav-active { overflow: hidden; }
   margin-block-end: 120px;
 }
 
-.about-banner > .w-100 { padding-inline-start: 50px; }
+.about-banner > .w-100 { padding-inline-start: 5px; }
 
 .about .abs-img { position: absolute; }
 
