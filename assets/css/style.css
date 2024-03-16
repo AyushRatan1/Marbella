@@ -2175,4 +2175,5 @@ textarea.input-field {
     width: auto; /* Auto width */
     height: 450px; /* Adjust height */
     margin-right: 10px; /* Adjust margin */
+    margin-right: 20px;
   }
