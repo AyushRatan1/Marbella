@@ -2178,3 +2178,8 @@ textarea.input-field {
     margin-right: 10px; /* Adjust margin */
     margin-right: 20px;
   }
+  .carousel-container {
+    overflow-x: scroll;
+    white-space: nowrap;
+    padding-bottom: 10px; /* Add space for scrollbar */
+}
