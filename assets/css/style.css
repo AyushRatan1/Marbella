@@ -970,6 +970,7 @@ body.nav-active { overflow: hidden; }
 .about-banner {
   position: relative;
   margin-block-end: 120px;
+  height: 306px;
 }
 
 .about-banner > .w-100 { padding-inline-start: 5px; }
