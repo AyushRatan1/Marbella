@@ -621,7 +621,7 @@ body.nav-active { overflow: hidden; }
 }
 
 .header.active {
-  padding-block: 20px;
+  padding-block: 7px;
   background-color: var(--eerie-black-4);
   border-color: var(--black-alpha-15);
 }
