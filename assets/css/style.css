@@ -2150,3 +2150,29 @@ textarea.input-field {
   }
 
 }
+
+/* Define styles for grid-list2 */
+
+.carousel {
+  width: 100%; /* Adjust width to fill the available space */
+  overflow-x: auto; /* Enable horizontal scrolling on mobile devices */
+  -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+  margin-left: 5px;
+}
+.carousel-text {
+  font-size: xx-large;
+  margin-left: 119px;
+}
+
+.carousel-inner {
+  display: flex;
+  flex-wrap: nowrap; /* Ensure images do not wrap to the next line */
+  transition: transform 0.5s ease;
+}
+
+.carousel-inner img {
+  
+    width: auto; /* Auto width */
+    height: 450px; /* Adjust height */
+    margin-right: 10px; /* Adjust margin */
+  }
