@@ -2188,15 +2188,15 @@ textarea.input-field {
 
   .more-images-arrow {
     position: absolute;
-    right: 3px;
+    right: -5px;
     top: 50%;
     transform: translateY(-50%);
     cursor: pointer;
-    font-size: 35px;
-    color: #fff;
+    width: 54px;
+    height: 49px;
+    fill: white;
     animation: bounce 2s infinite alternate;
-  }
-
+}
   @keyframes bounce {
     from {
       transform: translateY(-50%) scale(1);
