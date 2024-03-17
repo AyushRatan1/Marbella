@@ -2178,3 +2178,30 @@ textarea.input-field {
     margin-right: 10px; /* Adjust margin */
     margin-right: 20px;
   }
+  .carousel-container {
+    position: relative;
+    
+    white-space: nowrap;
+    width: 100%;
+    margin-bottom: 20px; /* Add some margin to create space for the arrow */
+  }
+
+  .more-images-arrow {
+    position: absolute;
+    right: 3px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 35px;
+    color: #fff;
+    animation: bounce 2s infinite alternate;
+  }
+
+  @keyframes bounce {
+    from {
+      transform: translateY(-50%) scale(1);
+    }
+    to {
+      transform: translateY(-50%) scale(1.4);
+    }
+  }
