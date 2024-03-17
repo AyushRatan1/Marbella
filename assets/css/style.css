@@ -2156,7 +2156,7 @@ textarea.input-field {
 
 .carousel {
   width: 100%; /* Adjust width to fill the available space */
-  overflow-x: auto; /* Enable horizontal scrolling on mobile devices */
+  overflow-x: scroll; /* Enable horizontal scrolling on mobile devices */
   -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
   margin-left: 5px;
 }
@@ -2178,8 +2178,3 @@ textarea.input-field {
     margin-right: 10px; /* Adjust margin */
     margin-right: 20px;
   }
-  .carousel-container {
-    overflow-x: scroll;
-    white-space: nowrap;
-    padding-bottom: 10px; /* Add space for scrollbar */
-}
