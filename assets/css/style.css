@@ -1136,7 +1136,7 @@ body.nav-active { overflow: hidden; }
 \*-----------------------------------*/
 
 .testi {
-  padding-block-end: 340px;
+ 
   position: static;
 }
 
@@ -1901,7 +1901,6 @@ textarea.input-field {
   .footer-list:last-child { order: 2; }
 
 }
-
 
 
 
