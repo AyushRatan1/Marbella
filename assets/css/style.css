@@ -2223,14 +2223,14 @@ textarea.input-field {
    border-radius: 8px; /* Add border radius */
    padding: 15px; /* Add padding */
    box-shadow: 0 0 10px rgba(255, 254, 254, 0.653); /* Add box shadow for 3D effect */
-   width: 360px;
+   width: 100%;
    
  }
  
  
  /* Written Content */
  .written-content {
-   margin-left: 40px;
+  
    color: #ffffff;
    
    text-align: center;
@@ -2259,4 +2259,8 @@ textarea.input-field {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); /* Center the icon */
+}
+.frame{
+  width: 100%;
+  height: 100%;
 }
