@@ -61,7 +61,7 @@
   --fontSize-title-3: 2.1rem;
   --fontSize-title-4: calc(1.6rem + 1.2vw);
   --fontSize-body-1: 2.4rem;
-  --fontSize-body-2: 1.6rem;
+  --fontSize-body-2: 1.9rem;
   --fontSize-body-3: 1.8rem;
   --fontSize-body-4: 1.6rem;
   --fontSize-label-1: 1.4rem;
@@ -621,14 +621,15 @@ body.nav-active { overflow: hidden; }
 }
 
 .header.active {
-  padding-block: 7px;
-  background-color: var(--eerie-black-4);
+  padding-block: 0px;
+  background-color: hsl(0deg 9.07% 4.72%);
+  
   border-color: var(--black-alpha-15);
 }
 
 .header.hide {
   transform: translateY(-100%);
-  transition-delay: 250ms;
+ 
 }
 
 .header .container {
@@ -1135,7 +1136,7 @@ body.nav-active { overflow: hidden; }
 \*-----------------------------------*/
 
 .testi {
-  padding-block-end: 340px;
+ 
   position: static;
 }
 
@@ -1638,6 +1639,7 @@ textarea.input-field {
     bottom: 0;
     min-width: max-content;
   }
+  
 
 }
 
@@ -1728,7 +1730,8 @@ textarea.input-field {
    */
 
   .footer-brand { grid-column: 1 / 3; }
-
+  
+  
 }
 
 
@@ -1904,7 +1907,6 @@ textarea.input-field {
 
 
 
-
 /**
  * responsive for larger than 1200px screen
  */
@@ -2072,6 +2074,7 @@ textarea.input-field {
    */
 
   .features .grid-list { grid-template-columns: repeat(4, 1fr); }
+  
 
 }
 
@@ -2149,6 +2152,7 @@ textarea.input-field {
     bottom: 80px;
     left: 0;
   }
+  
 
 }
 
@@ -2156,7 +2160,7 @@ textarea.input-field {
 
 .carousel {
   width: 100%; /* Adjust width to fill the available space */
-  overflow-x: auto; /* Enable horizontal scrolling on mobile devices */
+  overflow-x: scroll; /* Enable horizontal scrolling on mobile devices */
   -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
   margin-left: 5px;
 }
@@ -2178,3 +2182,88 @@ textarea.input-field {
     margin-right: 10px; /* Adjust margin */
     margin-right: 20px;
   }
+  .carousel-container {
+    position: relative;
+    
+    white-space: nowrap;
+    width: 100%;
+    margin-bottom: 20px; /* Add some margin to create space for the arrow */
+  }
+
+  .more-images-arrow {
+    position: absolute;
+    right: -5px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 54px;
+    height: 49px;
+    fill: white;
+    animation: bounce 2s infinite alternate;
+}
+  @keyframes bounce {
+    from {
+      transform: translateY(-50%) scale(1);
+    }
+    to {
+      transform: translateY(-50%) scale(1.4);
+    }
+  }
+
+  .location-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px; /* Adjust as needed */
+  }
+
+  .location-box {
+    /* Set width of location box */
+   border: 2px solid #ccc; /* Add border */
+   border-radius: 8px; /* Add border radius */
+   padding: 15px; /* Add padding */
+   box-shadow: 0 0 10px rgba(255, 254, 254, 0.653); /* Add box shadow for 3D effect */
+   width: 100%;
+   
+   
+ }
+ 
+ 
+ /* Written Content */
+ .written-content {
+  
+   color: #ffffff;
+   
+   text-align: center;
+ }
+ 
+ .iframely-embed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 50;
+  background: white;
+  
+}
+
+.social-logos2 {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px; /* Adjust the margin as needed */
+  margin-left: 150px;
+
+}
+
+.location-icon {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the icon */
+}
+.frame{
+  width: 100%;
+ 
+  height: 100%;
+}
